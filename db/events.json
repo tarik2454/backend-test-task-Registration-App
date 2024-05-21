@@ -1,0 +1,367 @@
+[
+  {
+    "id": "1",
+    "title": "Art Festival",
+    "description": "A celebration of arts"
+  },
+  {
+    "id": "2",
+    "title": "Music Concert",
+    "description": "Live music experience"
+  },
+  {
+    "id": "3",
+    "title": "Tech Conference",
+    "description": "Innovations in technology"
+  },
+  {
+    "id": "4",
+    "title": "Food Expo",
+    "description": "Gourmet food showcase"
+  },
+  {
+    "id": "5",
+    "title": "Book Fair",
+    "description": "Explore new books"
+  },
+  {
+    "id": "6",
+    "title": "Film Screening",
+    "description": "Watch classic films"
+  },
+  {
+    "id": "7",
+    "title": "Craft Workshop",
+    "description": "Hands-on crafting"
+  },
+  {
+    "id": "8",
+    "title": "Dance Show",
+    "description": "Spectacular dance performances"
+  },
+  {
+    "id": "9",
+    "title": "Photography Exhibit",
+    "description": "Stunning photo displays"
+  },
+  {
+    "id": "10",
+    "title": "Wine Tasting",
+    "description": "Sample exquisite wines"
+  },
+  {
+    "id": "11",
+    "title": "Charity Gala",
+    "description": "Support a good cause"
+  },
+  {
+    "id": "12",
+    "title": "Yoga Retreat",
+    "description": "Relaxing yoga sessions"
+  },
+  {
+    "id": "13",
+    "title": "Marathon Race",
+    "description": "Run for fitness"
+  },
+  {
+    "id": "14",
+    "title": "Startup Meetup",
+    "description": "Network with entrepreneurs"
+  },
+  {
+    "id": "15",
+    "title": "Garden Tour",
+    "description": "Explore beautiful gardens"
+  },
+  {
+    "id": "16",
+    "title": "Science Fair",
+    "description": "Discover scientific wonders"
+  },
+  {
+    "id": "17",
+    "title": "Fashion Show",
+    "description": "Latest fashion trends"
+  },
+  {
+    "id": "18",
+    "title": "Cooking Class",
+    "description": "Learn to cook gourmet"
+  },
+  {
+    "id": "19",
+    "title": "Theater Play",
+    "description": "Live drama performances"
+  },
+  {
+    "id": "20",
+    "title": "Magic Show",
+    "description": "Amaze with illusions"
+  },
+  {
+    "id": "21",
+    "title": "Poetry Reading",
+    "description": "Listen to poems"
+  },
+  {
+    "id": "22",
+    "title": "History Lecture",
+    "description": "Learn about history"
+  },
+  {
+    "id": "23",
+    "title": "Comic Con",
+    "description": "Celebrate pop culture"
+  },
+  {
+    "id": "24",
+    "title": "Pet Expo",
+    "description": "Pet products and services"
+  },
+  {
+    "id": "25",
+    "title": "Antique Show",
+    "description": "Showcase vintage items"
+  },
+  {
+    "id": "26",
+    "title": "Ballet Performance",
+    "description": "Graceful ballet dancing"
+  },
+  {
+    "id": "27",
+    "title": "Fitness Workshop",
+    "description": "Improve your fitness"
+  },
+  {
+    "id": "28",
+    "title": "Jazz Night",
+    "description": "Smooth jazz tunes"
+  },
+  {
+    "id": "29",
+    "title": "Adventure Trip",
+    "description": "Thrilling outdoor activities"
+  },
+  {
+    "id": "30",
+    "title": "Wine and Dine",
+    "description": "Gourmet food and wine"
+  },
+  {
+    "id": "31",
+    "title": "Health Fair",
+    "description": "Promote healthy living"
+  },
+  {
+    "id": "32",
+    "title": "Photography Walk",
+    "description": "Capture beautiful sights"
+  },
+  {
+    "id": "33",
+    "title": "Art Auction",
+    "description": "Bid on artworks"
+  },
+  {
+    "id": "34",
+    "title": "Bird Watching",
+    "description": "Observe birds"
+  },
+  {
+    "id": "35",
+    "title": "Robotics Expo",
+    "description": "Innovative robotics"
+  },
+  {
+    "id": "36",
+    "title": "Language Workshop",
+    "description": "Learn new languages"
+  },
+  {
+    "id": "37",
+    "title": "Kite Festival",
+    "description": "Fly colorful kites"
+  },
+  {
+    "id": "38",
+    "title": "Puzzle Challenge",
+    "description": "Solve challenging puzzles"
+  },
+  {
+    "id": "39",
+    "title": "Climbing Event",
+    "description": "Rock climbing activities"
+  },
+  {
+    "id": "40",
+    "title": "Mural Painting",
+    "description": "Create large artworks"
+  },
+  {
+    "id": "41",
+    "title": "Marine Life Tour",
+    "description": "Explore marine life"
+  },
+  {
+    "id": "42",
+    "title": "Tennis Tournament",
+    "description": "Competitive tennis matches"
+  },
+  {
+    "id": "43",
+    "title": "Charity Run",
+    "description": "Run for charity"
+  },
+  {
+    "id": "44",
+    "title": "Astronomy Night",
+    "description": "Stargazing event"
+  },
+  {
+    "id": "45",
+    "title": "Model UN",
+    "description": "Debate global issues"
+  },
+  {
+    "id": "46",
+    "title": "Sculpture Workshop",
+    "description": "Create sculptures"
+  },
+  {
+    "id": "47",
+    "title": "Chess Tournament",
+    "description": "Competitive chess games"
+  },
+  {
+    "id": "48",
+    "title": "Eco Fair",
+    "description": "Sustainable living tips"
+  },
+  {
+    "id": "49",
+    "title": "Farmers Market",
+    "description": "Fresh local produce"
+  },
+  {
+    "id": "50",
+    "title": "Classic Cars Show",
+    "description": "Vintage cars display"
+  },
+  {
+    "id": "51",
+    "title": "Music Festival",
+    "description": "Live music performances"
+  },
+  {
+    "id": "52",
+    "title": "Film Festival",
+    "description": "Premiere new films"
+  },
+  {
+    "id": "53",
+    "title": "Painting Class",
+    "description": "Learn to paint"
+  },
+  {
+    "id": "54",
+    "title": "Coding Bootcamp",
+    "description": "Learn to code"
+  },
+  {
+    "id": "55",
+    "title": "Poetry Slam",
+    "description": "Perform spoken word"
+  },
+  {
+    "id": "56",
+    "title": "Sailing Trip",
+    "description": "Experience sailing"
+  },
+  {
+    "id": "57",
+    "title": "Fashion Workshop",
+    "description": "Design your own clothes"
+  },
+  {
+    "id": "58",
+    "title": "Cooking Demo",
+    "description": "Live cooking demonstration"
+  },
+  {
+    "id": "59",
+    "title": "Mental Health Talk",
+    "description": "Discuss mental health"
+  },
+  {
+    "id": "60",
+    "title": "Biking Event",
+    "description": "Group bike rides"
+  },
+  {
+    "id": "61",
+    "title": "Craft Fair",
+    "description": "Handmade crafts sale"
+  },
+  {
+    "id": "62",
+    "title": "Jazz Festival",
+    "description": "Enjoy live jazz music"
+  },
+  {
+    "id": "63",
+    "title": "Film Night",
+    "description": "Watch feature films"
+  },
+  {
+    "id": "64",
+    "title": "Board Games Night",
+    "description": "Play board games"
+  },
+  {
+    "id": "65",
+    "title": "Trivia Night",
+    "description": "Test your knowledge"
+  },
+  {
+    "id": "66",
+    "title": "Ice Skating",
+    "description": "Ice skating fun"
+  },
+  {
+    "id": "67",
+    "title": "Beach Clean-Up",
+    "description": "Help clean the beach"
+  },
+  {
+    "id": "68",
+    "title": "Cycling Tour",
+    "description": "Explore on bikes"
+  },
+  {
+    "id": "69",
+    "title": "Pet Adoption",
+    "description": "Find a pet"
+  },
+  {
+    "id": "70",
+    "title": "Yoga Class",
+    "description": "Practice yoga"
+  },
+  {
+    "id": "EWarmy2KaT9UCo-3QG2ao",
+    "title": "Trivia Day",
+    "description": "Test"
+  },
+  {
+    "id": "uXCYMa4bPznctWRkTH1sn",
+    "title": "Trivia Day 1",
+    "description": "Test 123"
+  },
+  {
+    "id": "FEEn7G0kYt12qlsBg5xQv",
+    "title": "Trivia Day 1",
+    "description": "Test 7889789"
+  }
+]
