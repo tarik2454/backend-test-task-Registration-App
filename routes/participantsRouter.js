@@ -16,4 +16,6 @@ participantsRouter.post(
   participantsControllers.add
 );
 
+// router.post('/', participantsControllers.add);
+
 export default participantsRouter;

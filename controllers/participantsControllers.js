@@ -23,6 +23,11 @@ const add = async (req, res, next) => {
   res.status(201).json(result);
 };
 
+// const add = async (req, res, next) => {
+//   const result = await participantsServices.addParticipant(req.body);
+//   res.status(201).json(result);
+// };
+
 export default {
   getAll: ctrlWrapper(getAll),
   getById: ctrlWrapper(getById),
