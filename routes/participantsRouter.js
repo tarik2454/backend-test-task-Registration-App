@@ -1,8 +1,8 @@
 import express from 'express';
 
 import participantsControllers from '../controllers/participantsControllers.js';
-import validateBody from '../decorators/validateBody.js';
-import participantsSchemas from '../schemas/participantsSchemas.js';
+import { validateBody } from '../decorators/index.js';
+import participantSchemas from '../schemas/participantSchemas.js';
 
 const participantsRouter = express.Router();
 
@@ -12,7 +12,7 @@ participantsRouter.get('/:id', participantsControllers.getById);
 
 participantsRouter.post(
   '/',
-  // validateBody(participantsSchemas),
+  // validateBody(participantSchemas),
   participantsControllers.add
 );
 
