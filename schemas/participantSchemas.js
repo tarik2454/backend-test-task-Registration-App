@@ -3,7 +3,7 @@ import Joi from 'joi';
 const emailRegexp = /^\w+([\\.-]?\w+)*@\w+([\\.-]?\w+)*(\.\w{2,3})+$/;
 
 const createParticipantSchema = Joi.object({
-  fullName: Joi.string().min(3).max(100).required().messages({
+  fullName: Joi.string().min(2).max(100).required().messages({
     'string.base': 'Full Name should be a type of string',
     'string.empty': 'Full Name cannot be empty',
     'string.min': 'Full Name should have a minimum length of {#limit}',
@@ -20,13 +20,15 @@ const createParticipantSchema = Joi.object({
     'date.format': 'Date of Birth should be in ISO format',
     'any.required': 'Date of Birth is required',
   }),
-  referral: Joi.string()
-    .valid('Social media', 'Friends', 'Found myself')
+  referral: Joi.array()
+    .items(Joi.string().valid('Social media', 'Friends', 'Found myself'))
+    .min(1)
     .required()
     .messages({
       'any.only':
         'Referral must be one of Social media, Friends, or Found myself',
       'any.required': 'Referral is required',
+      'array.min': 'At least one referral method must be selected',
     }),
 });
 
