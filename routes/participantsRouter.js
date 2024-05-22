@@ -10,7 +10,7 @@ const participantsRouter = express.Router();
 
 participantsRouter.get('/', participantsControllers.getAll);
 
-participantsRouter.get('/:id', participantsControllers.getById);
+participantsRouter.get('/:eventId', participantsControllers.getById);
 
 participantsRouter.post(
   '/',

@@ -30,6 +30,7 @@ const createParticipantSchema = Joi.object({
       'any.required': 'Referral is required',
       'array.min': 'At least one referral method must be selected',
     }),
+  eventId: Joi.string().required(),
 });
 
 export default createParticipantSchema;

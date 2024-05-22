@@ -10,8 +10,8 @@ const getAll = async (req, res, next) => {
 };
 
 const getById = async (req, res, next) => {
-  const { id } = req.params;
-  const result = await Participant.findById(id);
+  const { eventId } = req.params;
+  const result = await Participant.find({ eventId });
   if (!result) {
     throw HttpError(404);
   }

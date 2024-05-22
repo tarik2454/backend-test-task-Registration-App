@@ -28,26 +28,3 @@ export const addEvent = async data => {
   await updateEvents(events);
   return newEvent;
 };
-
-// export const updateMovieById = async (id, data) => {
-//   const movies = await getAllMovies();
-//   const index = movies.findIndex(item => item.id === id);
-//   if (index === -1) {
-//     return null;
-//   }
-//   movies[index] = { id, ...data };
-//   await updateMovies(movies);
-//   return movies[index];
-// };
-
-// export const deleteById = async id => {
-//   const movies = await getAllMovies();
-//   const index = movies.findIndex(item => item.id === id);
-//   if (index === -1) {
-//     return null;
-//   }
-//   const [result] = movies.splice(index, 1);
-//   // const result = movies.splice(index, 1)[0];
-//   await updateMovies(movies);
-//   return result;
-// };

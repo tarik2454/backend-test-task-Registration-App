@@ -28,12 +28,3 @@ export const addParticipants = async data => {
   await updateParticipants(participants);
   return newParticipant;
 };
-
-// export const addParticipant = async data => {
-//   const newParticipant = {
-//     id: nanoid(),
-//     ...data,
-//   };
-//   await newParticipant.save();
-//   return newParticipant;
-// };

@@ -20,6 +20,11 @@ const participantSchema = new Schema(
       type: [String],
       required: true,
     },
+    eventId: {
+      type: Schema.Types.ObjectId,
+      ref: 'Event',
+      required: true,
+    },
   },
   { versionKey: false, timestamps: true }
 );
