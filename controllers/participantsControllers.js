@@ -9,14 +9,14 @@ const getAll = async (req, res, next) => {
   res.json(result);
 };
 
-// const getById = async (req, res, next) => {
-//   const { id } = req.params;
-//   const result = await participantsServices.getParticipantsById(id);
-//   if (!result) {
-//     throw HttpError(404);
-//   }
-//   res.json(result);
-// };
+const getById = async (req, res, next) => {
+  const { id } = req.params;
+  const result = await Participant.findById(id);
+  if (!result) {
+    throw HttpError(404);
+  }
+  res.json(result);
+};
 
 const add = async (req, res, next) => {
   const result = await Participant.create(req.body);
@@ -25,6 +25,6 @@ const add = async (req, res, next) => {
 
 export default {
   getAll: ctrlWrapper(getAll),
-  // getById: ctrlWrapper(getById),
+  getById: ctrlWrapper(getById),
   add: ctrlWrapper(add),
 };

@@ -9,16 +9,16 @@ const getAll = async (req, res, next) => {
   res.json(result);
 };
 
-// const getById = async (req, res, next) => {
-//   const { id } = req.params;
-//   const result = await eventsServices.getEventById(id);
-//   if (!result) {
-//     throw HttpError(404);
-//   }
-//   res.json(result);
-// };
+const getById = async (req, res, next) => {
+  const { id } = req.params;
+  const result = await Event.findById(id);
+  if (!result) {
+    throw HttpError(404);
+  }
+  res.json(result);
+};
 
 export default {
   getAll: ctrlWrapper(getAll),
-  // getById: ctrlWrapper(getById),
+  getById: ctrlWrapper(getById),
 };
